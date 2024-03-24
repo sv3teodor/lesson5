@@ -1,5 +1,3 @@
-package utils;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -10,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static configs.TestConfig.*;
 
-public class BaseTest {
+public abstract class BaseTest {
 
     protected static WebDriver driver;
 
